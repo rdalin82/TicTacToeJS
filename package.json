@@ -1,0 +1,11 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "\"simple tic tac toe game\" ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Dalin",
+  "license": "ISC"
+}

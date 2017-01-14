@@ -1,0 +1,57 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+h1 {
+  font-size: 4em; }
+
+h2 {
+  font-size: 2em;
+  color: aqua; }
+
+.container {
+  display: flex;
+  margin-left: 75px;
+  padding: 0;
+  height: auto;
+  width: auto; }
+
+.sq {
+  height: 20%;
+  width: 20%;
+  padding: 20px;
+  font-size: 4em;
+  line-height: 1.2em;
+  text-align: center;
+  vertical-align: middle; }
+
+.sq-zero {
+  border-bottom: 1px black solid;
+  border-right: 1px black solid; }
+
+.sq-one {
+  border-bottom: 1px black solid;
+  border-right: 1px black solid; }
+
+.sq-two {
+  border-bottom: 1px black solid; }
+
+.sq-three {
+  border-right: 1px black solid;
+  border-bottom: 1px black solid; }
+
+.sq-four {
+  border-right: 1px black solid;
+  border-bottom: 1px black solid; }
+
+.sq-five {
+  border-bottom: 1px black solid; }
+
+.sq-six {
+  border-right: 1px black solid; }
+
+.sq-seven {
+  border-right: 1px black solid; }
+
+/*# sourceMappingURL=style.css.map */

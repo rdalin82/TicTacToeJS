@@ -1,0 +1,71 @@
+$border-line: 1px black solid;
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1{
+  font-size: 4em
+}
+h2 {
+  font-size: 2em;
+  color: aqua;
+}
+.container {
+  display: flex;
+  margin-left: 75px;
+  padding: 0;
+  height: auto;
+  width: auto;
+}
+.sq {
+  height: 20%;
+  width: 20%;
+  padding: 20px;
+  font-size: 4em;
+  line-height: 1.2em;
+  text-align: center;
+  vertical-align: middle;
+
+  
+}
+
+.sq-zero{
+    border-bottom: $border-line;
+    border-right: $border-line;
+  }
+
+  .sq-one{
+    border-bottom: $border-line;
+    border-right: $border-line;
+  }
+
+  .sq-two{
+    border-bottom: $border-line;
+  }
+
+  .sq-three{
+    border-right: $border-line;
+    border-bottom: $border-line;
+  }
+
+  .sq-four{
+    border-right: $border-line;
+    border-bottom: $border-line;
+  }
+
+  .sq-five{
+    border-bottom: $border-line;
+  }
+
+  .sq-six {
+    border-right: $border-line;
+  }
+
+  .sq-seven {
+    border-right: $border-line;
+  }
+
+  .sq-eight{
+  }  
