@@ -11,11 +11,11 @@ $(document).ready(function(){
       game = new_board(ai.choice, game);
       if ( over(game) ){
         if (won(game, "x")) {
-          $("#over").append("x won! click here for new game");
+          $("#over").append("x won! click here for new game").addClass("border");
         } else if (won(game, "o")){
-          $("#over").append("o won! click here for new game");
+          $("#over").append("o won! click here for new game").addClass("border");
         } else {
-          $("#over").append("its a draw! click here for new game");
+          $("#over").append("its a draw! click here for new game").addClass("border");
         }
       }
     } else {
