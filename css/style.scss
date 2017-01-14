@@ -20,6 +20,8 @@ h2 div#over{
 }
 .border {
   border: $border-line;
+  background-color: black;
+  color: white;
 }
 .container {
   display: flex;

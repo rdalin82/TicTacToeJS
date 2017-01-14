@@ -15,7 +15,9 @@ h2 div#over {
   padding: 10px; }
 
 .border {
-  border: 1px black solid; }
+  border: 1px black solid;
+  background-color: black;
+  color: white; }
 
 .container {
   display: flex;
