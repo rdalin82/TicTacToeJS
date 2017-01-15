@@ -108,7 +108,7 @@ function score(game){
   }
 }
 
-new_board = function(move, game){
+function new_board(move, game){
   var board = game.board.slice();
   board[move] = game.turn;
   var turn;
