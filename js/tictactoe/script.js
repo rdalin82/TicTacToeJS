@@ -18,6 +18,8 @@ $(document).ready(function(){
           $("#over").append("its a draw! click here for new game").addClass("border");
         }
       }
+    } else if (over(game)){
+      console.log("game is over");
     } else {
       console.log("space already taken");
     }
