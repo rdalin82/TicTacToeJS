@@ -5,10 +5,13 @@ const app = express();
 
 app.use(express.static(__dirname));
 
-app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, 'index.html'))
+app.get('/', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'views/tictactoe/index.html'))
 });
 
+app.get('/rentvsbuy', (req, res) => {
+  res.sendFile(path.resolve(__dirname, "views/rentvsbuy/index.html"))
+})
 
 app.listen(port);
 console.log("Server has started on " + port);

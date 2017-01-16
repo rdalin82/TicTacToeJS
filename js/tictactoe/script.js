@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(".sq").on('click', function(){
-    if (this.innerHTML =="-" ){
+    if (this.innerHTML =="-"  && !over(game) ){
       var that = this;
       $(that).text(game.turn);
       var space = $(this).data("value");
